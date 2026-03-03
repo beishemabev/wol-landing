@@ -347,7 +347,8 @@ export const asIsToBe = {
         { id: faq.id, label: faq.title },
       ],
       primaryCta: finalCta.primary,
-    
+      secondaryCta: finalCta.secondary,
+      whatsappSectionId: whatsappTemplates.id,
       whatsappLink:
         "https://wa.me/996706807836?text=" +
         encodeURIComponent(
